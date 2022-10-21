@@ -1,1 +1,1 @@
-# UIU_Student_Activity
+# UIU_Student_Activity_Tracker

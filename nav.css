@@ -1,0 +1,279 @@
+/* .mynav{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    height: 100px;
+    /* width:1000px ; */
+    /* transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 20px 0;
+    background: rgb(207, 140, 15);
+    display: flex; */
+
+
+ /* li{
+    display: inline;
+
+} */
+.navbar {
+	color: #fff;
+	background: #cf8c10 !important;
+	padding: 5px 16px;
+	border-radius: 0;
+	border: none;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);
+    position: relative;
+    left: 110px;
+    width: 1300px;
+    height: 70px;
+    top: 5px;
+	
+}
+.navbar img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin-right: 10px;
+}
+.navbar .navbar-brand {
+	color: #efe5ff;
+	padding-left: 0;
+	padding-right: 50px;
+	font-size: 24px;		
+}
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+	color: #fff;
+}
+.navbar .navbar-brand i {
+	font-size: 25px;
+	margin-right: 5px;
+}
+.search-box {
+	position: relative;
+    
+}	
+.search-box input {
+	padding-right: 35px;
+	min-height: 38px;
+	border: none;
+	background: #faf7fd;
+	border-radius: 3px !important;
+}
+.search-box input:focus {		
+	background: #fff;
+	box-shadow: none;
+}
+.search-box .input-group-addon {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 10px 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #a0a5b1;
+	font-size: 19px;
+}
+.navbar .nav-item i {
+	font-size: 18px;
+}
+.navbar .nav-item span {
+	position: relative;
+	top: 3px;
+}
+.navbar .navbar-nav > a {
+	color: #efe5ff;
+	padding: 8px 15px;
+	font-size: 14px;		
+}
+.navbar .navbar-nav > a:hover, .navbar .navbar-nav > a:focus {
+	color: #fff;
+	text-shadow: 0 0 4px rgba(255,255,255,0.3);
+}
+.navbar .navbar-nav > a > i {
+	display: block;
+	text-align: center;
+}
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar .dropdown-item .material-icons {
+	font-size: 21px;
+	line-height: 16px;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+.navbar .nav-item.open > a, .navbar .nav-item.open > a:hover, .navbar .nav-item.open > a:focus {
+	color: #fff;
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu a {
+	color: #777 !important;
+	padding: 8px 20px;
+	line-height: normal;
+	font-size: 15px;
+}
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus {
+	color: #333 !important;
+	background: transparent !important;
+}
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:hover, .navbar .navbar-nav .active a:focus {
+	color: #fff;
+	text-shadow: 0 0 4px rgba(255,255,255,0.2);
+	background: transparent !important;
+}
+.navbar .navbar-nav .user-action {
+	padding: 9px 15px;
+	font-size: 15px;
+}
+.navbar .navbar-toggle {
+	border-color: #fff;
+}
+.navbar .navbar-toggle .icon-bar {
+	background: #fff;
+}
+.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+	background: transparent;
+}
+.navbar .navbar-nav .open .dropdown-menu {
+	background: #faf7fd;
+	border-radius: 1px;
+	border-color: #faf7fd;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .divider {
+	background-color: #e9ecef !important;
+}
+@media (min-width: 1200px){
+	.form-inline .input-group {
+		width: 350px;
+		margin-left: 30px;
+	}
+}
+@media (max-width: 1199px){
+	.navbar .navbar-nav > a > i {
+		display: inline-block;			
+		text-align: left;
+		min-width: 30px;
+		position: relative;
+		top: 4px;
+	}
+	.navbar .navbar-collapse {
+		border: none;
+		box-shadow: none;
+		padding: 0;
+	}
+	.navbar .navbar-form {
+		border: none;			
+		display: block;
+		margin: 10px 0;
+		padding: 0;
+	}
+	.navbar .navbar-nav {
+		margin: 8px 0;
+	}
+	.navbar .navbar-toggle {
+		margin-right: 0;
+	}
+	.input-group {
+		width: 100%;
+	}
+}
+ul{
+	position:relative;/* set the position of the navigation bar*/
+	top: 40px;
+	left: 200px;
+	transform: translate(-50%,-50%);
+    height: 60px;
+    width: 1500px;
+	margin: 0;
+	padding: 20px 0; /* Adding some padding */
+	background: rgba(214, 211, 205, 0.459); /* Add a white background color to the top navigation */
+	display: flex; /* flex Set navigation bar horizontally using the  display tag*/
+	border-radius: 10px; /* add the border radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,.3)
+}
+ /* Style the links inside the navigation bar */
+ul li{
+	list-style: none;
+	text-align: center;
+	display: block;
+	border-right: 1px solid rgba(0,0,0,0.2);
+}
+ul li:last-child{
+	border-right: none;
+}
+ul li a{
+	text-decoration: none;
+	padding: 0 50px;
+	display: block;
+}
+/* Style the icon inside the navigation bar */
+ul li a .icon{
+	width: 40px; /* changing the width of the icon */
+	height: 40px; /* changing the height of the icon */
+	text-align: center;
+	
+	overflow: hidden;
+	margin: 0 auto 10px;
+	
+}
+/* set the size, height, width of the icon*/
+ul li a .icon .fa{
+	width: 100%;
+	height: 100%;
+	line-height: 40px;
+	font-size: 34px;
+	transition: 0.5s; /* adding the transition to make it more attractive */
+	color: #000;
+}
+
+/* Change the color of icon on hover */
+ul li a .icon .fa:last-child{
+	color: aqua;
+}
+/* style the color and transform of the icon on hover */
+ul li a:hover .icon .fa{
+	transform: translateY(-100%); /* translate y to add the hover effect */
+}
+ul li a .name{
+	position: relative;
+	height: 20px; 
+	width: 100%;
+	display: block;
+	overflow: hidden;/*make ul li a .name overflow is hidden*/
+}
+/*style the font size and set transition of the navigation menu*/
+ul li a .name span{
+	display: block;
+	position: relative;
+	color: #000;
+	font-size: 18px; /* changing font size */
+	line-height: 20px;
+	transition: 0.5s; /* adding the transition to make it more attractive */
+	
+}
+/*set and change position, top, width, left, height color of the 'class'.name span:before*/
+ul li a .name span:before{
+	content: attr(data-text);
+	position: absolute;
+	top: -100%;
+	width: 100%;
+	left: 0;
+	height: 1005;
+	color: aqua;
+	
+}
+/*style hover effect of ul li a .name span */
+ul li a:hover .name span{
+	transform: translateY(20px);
+}

@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(800deg, #f4af74) !important; 
+    /* text-align: center !important;*/
+    font-family: arial;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+form div {
+    margin-top: 5px;
+}
+
+#img_div {
+    width: 80%;
+    padding: 5px;
+    margin: 20px auto;
+    border: 1px solid #cbcbcb;
+}
+
+#img_div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    float: left;
+    margin: 5px;
+    width: 200px;
+    height: 120px;
+}
+
+.achievement-container{
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+input{
+    padding: 0px 20px;
+    width: 300px;  
+    height: 40px;
+    font-size: 18px;
+}
+
+button{
+    width: 100px;
+    height: 40px; /*42*/
+    font-size: 18px;
+}
+

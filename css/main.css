@@ -1,0 +1,295 @@
+/* Timeline custom component */
+.timeline-card {
+  position: relative;
+  margin-left: 16px; }
+
+.timeline-card:before {
+  content: '';
+  display: inline-block;
+  position: relative;
+  background-color: #fff;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: -12px;
+  border: 5px solid;
+  z-index: 2; }
+
+.timeline-body {
+  border-left: 2px solid #E6E9ED; }
+
+.timeline-card-primary:before {
+  border-color: var(--bs-primary); }
+
+.timeline-card-info:before {
+  border-color: var(--bs-info); }
+
+.timeline-card-secondary:before {
+  border-color: var(--bs-secondary); }
+
+.timeline-card-success:before {
+  border-color: var(--bs-teal); }
+
+html {
+  scroll-behavior: smooth; }
+
+html, body {
+  overflow-x: hidden; }
+
+.container {
+  max-width: 1140px; }
+
+.site-title {
+  font-size: 1.25rem;
+  line-height: 2.5rem; }
+
+.nav-link {
+  padding: 0;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: inherit;
+  opacity: 0.8; }
+
+.header-social .nav-link {
+  font-size: 1.25rem; }
+
+.nav-link:hover,
+.nav-link:focus {
+  color: inherit;
+  opacity: 1; }
+
+.nav-item + .nav-item {
+  margin-left: 1rem; }
+
+.cover {
+  height: 500px; }
+
+.cover > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: auto; }
+.bar{
+  background-color:rgb(255, 174, 0);
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+ 
+
+}
+
+
+
+.bar2{
+  background-color:rgb(56, 54, 48);
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  top: -10px;
+
+}
+.bar3{
+ 
+  text-align: left;
+ 
+  color: #fff;
+  position: relative;
+  
+ left:10px;
+top:4px;
+}
+.bio{
+  position: relative;
+  
+  top: -10px;
+
+}
+.progress-bar {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px; }
+.box{
+      height: 7px;
+      width: 1000px;
+      position: absolute;
+      top:1590px;
+    background-color: #f08c09;
+ 
+      
+    }
+    .btn5{
+      display: block;
+      width: 100px;
+      padding: 10px 20px;
+      text-align: center;
+      border: none;
+      background: linear-gradient(to right top, rgba(80, 76, 71, 0.952), rgba(180, 127, 117, 0.692));
+      outline: none;
+      border-radius: 5px;
+      font-size:13px;
+      color: #FFF;
+      cursor: pointer;
+      transition: .3s;
+      position: relative;
+      left: 700px;
+      top: -400px;
+      
+  
+  }
+  
+ 
+  
+  .container .login-email .input-group .btn5 {
+      display: block;
+      width: 100%;
+      padding: 15px 20px;
+      text-align: center;
+      border: none;
+      background: linear-gradient(to right top, rgba(88, 7, 7, 0.692), rgba(151, 48, 30, 0.692), rgba(184, 87, 42, 0.747));
+      outline: none;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      color: #FFF;
+      cursor: pointer;
+      transition: .3s;
+  }
+  
+   .btn5:hover {
+      transform: translateY(-5px);
+      background: #d41313c2;
+  }
+    .btn1{
+      display: block;
+      width: 200px;
+      padding: 10px 20px;
+      text-align: center;
+      border: none;
+      background: linear-gradient(to right top, rgba(206, 148, 25, 0.952), rgba(122, 38, 23, 0.692));
+      outline: none;
+      border-radius: 20px;
+      font-size:13px;
+      color: #FFF;
+      cursor: pointer;
+      transition: .3s;
+      position: relative;
+      left: 20px;
+      top: 20px;
+      
+  
+  }
+  
+  .container .login-email .input-group {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 25px;
+  }
+  
+  .container .login-email .input-group input {
+      width: 100%;
+      height: 100%;
+      border: 2px solid #812828;
+      padding: 15px 20px;
+      font-size: 1rem;
+      border-radius: 30px;
+      background: rgba(235, 228, 228, 0.438);
+      outline: none;
+      transition: .3s;
+     
+  }
+  
+  .container .login-email .input-group .btn1 {
+      display: block;
+      width: 100%;
+      padding: 15px 20px;
+      text-align: center;
+      border: none;
+      background: linear-gradient(to right top, rgba(88, 7, 7, 0.692), rgba(151, 48, 30, 0.692), rgba(184, 87, 42, 0.747));
+      outline: none;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      color: #FFF;
+      cursor: pointer;
+      transition: .3s;
+  }
+  
+   .btn1:hover {
+      /* transform: translateY(-5px); */
+      background: #af779cc2;
+  }
+  /* .myimg{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    border: 6px solid #f08c09;
+    padding: 3px;
+  } */
+.text-small {
+  font-size: 0.85rem; }
+
+.text-teal {
+  color: var(--bs-teal); }
+
+footer a:not(.nav-link) {
+  color: inherit;
+  border-bottom: 1px dashed;
+  text-decoration: none;
+  cursor: pointer; }
+
+@media (min-width: 48em) {
+  .site-title {
+    float: left; }
+  .site-nav {
+    float: right; } }
+    
+@media (max-width: 767px) {
+  /* disable animations on mobile */
+  [data-aos] {
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important; }
+  .p-5 {
+    padding: 2.5rem 2rem !important; }
+  .portfolio-section .m-5 {
+    margin: 2rem 0 1rem !important; }
+  .portfolio-reverse {
+    flex-direction: column-reverse; }
+  .portfolio-reverse .text-end {
+    text-align: start !important; } }
+
+@media print {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important; }
+  body.bg-light {
+    background-color: #fff !important; }
+  .container {
+    width: auto;
+    max-width: 100%;
+    padding: 0; }
+  .cover {
+    height: 360px;
+    margin-bottom: 1.5rem; }
+  .cover > img {
+    display: none; }
+  .shadow-1-strong {
+    box-shadow: none !important; }
+  .resume-container > .my-5 {
+    margin: 0 !important; }
+  .my-5.p-5 {
+    padding: 1.5rem 0 !important; }
+  .about-section {
+    padding: 0 !important; }
+  .skills-section,
+  .work-experience-section,
+  .education-section,
+  .portfolio-section,
+  .reference-section,
+  .contact-section {
+    padding: 0 !important; }
+  .page-break {
+    padding-top: 5rem;
+    page-break-before: always; } }
